@@ -6,3 +6,78 @@
   box-sizing: border-box;
   font-family: "Inter", serif;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.border {
+  background: rgb(124, 119, 119);
+  padding: 1rem 2rem;
+}
+
+.form-group {
+  margin-top: 1rem;
+}
+.form-group label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.form-group input:placeholder {
+  padding-left: 50rem;
+  color: red;
+}
+
+.form-group input {
+  width: 100%;
+  display: block;
+  height: 2.5rem;
+}
+
+.form-group textarea {
+  width: 100%;
+  display: block;
+  height: 4rem;
+  resize: none;
+}
+
+.btn {
+  background: rgb(231, 94, 231);
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 2rem;
+  background-color: rgb(49, 21, 45);
+  border: 1px solid #e6c0eb;
+  color: #fff;
+  border-radius: 5px;
+
+  display: none;
+}
+.result h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.result p,
+ul {
+  margin-bottom: 1rem;
+}
